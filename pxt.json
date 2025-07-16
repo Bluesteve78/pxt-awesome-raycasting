@@ -3,10 +3,8 @@
   "version": "0.0.1",
   "description": "A raycasting extension for MakeCode Arcade supporting ceilings, floors, stairs, and variable wall heights.",
   "files": [
-  "raycasting3d.ts",
-  "README.md"
-],
-
+    "raycasting3d.ts",
+    "README.md"
   ],
   "public": true,
   "dependencies": {
@@ -15,8 +13,5 @@
   "supportedTargets": [
     "arcade"
   ],
-  "preferredEditor": "tsprj",
-  "packageVersions": {
-    "core": ">=6.0.0"
-  }
+  "preferredEditor": "tsprj"
 }
