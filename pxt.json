@@ -1,0 +1,17 @@
+[
+  [
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2, "stairHeight": 0.5 },
+    { "wallHeight": 0, "floorHeight": 0.5, "ceilingHeight": 2.5 }
+  ],
+  [
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
+    { "wallHeight": 0, "floorHeight": 0, "ceilingHeight": 2 },
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 }
+  ],
+  [
+    { "wallHeight": 0, "floorHeight": 0, "ceilingHeight": 2 },
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
+    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 }
+  ]
+]
