@@ -1,17 +1,20 @@
-[
-  [
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2, "stairHeight": 0.5 },
-    { "wallHeight": 0, "floorHeight": 0.5, "ceilingHeight": 2.5 }
+{
+  "name": "pxt-awesome-raycasting",
+  "version": "0.0.1",
+  "description": "A raycasting extension for MakeCode Arcade supporting ceilings, floors, stairs, and variable wall heights.",
+  "files": [
+    "README.md",
+    "main.ts"
   ],
-  [
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
-    { "wallHeight": 0, "floorHeight": 0, "ceilingHeight": 2 },
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 }
+  "public": true,
+  "dependencies": {
+    "core": "*"
+  },
+  "supportedTargets": [
+    "arcade"
   ],
-  [
-    { "wallHeight": 0, "floorHeight": 0, "ceilingHeight": 2 },
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 },
-    { "wallHeight": 1, "floorHeight": 0, "ceilingHeight": 2 }
-  ]
-]
+  "preferredEditor": "tsprj",
+  "packageVersions": {
+    "core": ">=6.0.0"
+  }
+}
